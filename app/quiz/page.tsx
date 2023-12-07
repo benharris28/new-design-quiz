@@ -10,6 +10,7 @@ interface Website {
 
 interface Response {
   websiteName: string;
+  screenshotUrl: string;
   response: string;
   websiteID: number; // websiteID is a number here as well
 }
@@ -28,7 +29,8 @@ const Quiz: React.FC = () => {
     setUserResponses([...userResponses, {
       websiteName: currentWebsite.websiteName, 
       response: likeOrDislike,
-      websiteID: currentWebsite.websiteID // Add the websiteID here
+      websiteID: currentWebsite.websiteID, // Add the websiteID here
+      screenshotUrl: currentWebsite.screenshotUrl
     }]);
     setHasResponded(true);
   };
