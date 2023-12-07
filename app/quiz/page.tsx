@@ -1,27 +1,35 @@
-// pages/quiz.tsx
 'use client'
 import { useState } from 'react';
 import websiteData from '../../data.json'; // Adjust the path to your JSON file
 
 interface Website {
-    websiteName: string;
+  websiteName: string;
   screenshotUrl: string;
+  websiteID: number; // websiteID is a number
 }
 
 interface Response {
-  website: string;
+  websiteName: string;
   response: string;
+  websiteID: number; // websiteID is a number here as well
 }
 
-//submit responses from state and array of websites in json file to openAI assistant API
+// Submit responses from state and array of websites in json file to openAI assistant API
 
 const Quiz: React.FC = () => {
   const [currentWebsiteIndex, setCurrentWebsiteIndex] = useState<number>(0);
   const [userResponses, setUserResponses] = useState<Response[]>([]);
   const [hasResponded, setHasResponded] = useState<boolean>(false);
 
+  console.log(userResponses)
+
   const handleResponse = (likeOrDislike: string) => {
-    setUserResponses([...userResponses, { website: websiteData[currentWebsiteIndex].websiteName, response: likeOrDislike }]);
+    const currentWebsite = websiteData[currentWebsiteIndex];
+    setUserResponses([...userResponses, {
+      websiteName: currentWebsite.websiteName, 
+      response: likeOrDislike,
+      websiteID: currentWebsite.websiteID // Add the websiteID here
+    }]);
     setHasResponded(true);
   };
 

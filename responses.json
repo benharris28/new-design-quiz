@@ -1,0 +1,18 @@
+[
+    {
+        "websiteName": "Wing VC",
+        "websiteID": 1,
+        "response": "like"
+    },
+    {
+        "websiteName": "Concept Ventures",
+        "websiteID": 2,
+        "response": "dislike"
+    },
+    {
+        "websiteName": "Venture Climate Alliance",
+        "websiteID": 3,
+        "response": "dislike"
+    }
+
+]
