@@ -1,0 +1,33 @@
+[
+    {
+        "websiteName": "Wing VC",
+        "url": "https://www.wing.vc/",
+        "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880117/www.wing.vc__lgkdxp.png",
+        "attributes": {
+            "fonts": ["Söhne Breit", "Tiempos"],
+            "background_colors": ["#fffcef"],
+            "text_color": "#000000"
+        }
+    },
+    {
+        "websiteName": "Concept Ventures",
+        "url": "https://www.conceptventures.vc/",
+        "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880976/www.conceptventures.vc__ckw7cb.png",
+        "attributes": {
+            "fonts": ["Whyte", "Inter"],
+            "background_colors": ["#f6f6f2", "#2069f7"],
+            "text_color": "#121212"
+        }
+    },
+    {
+        "websiteName": "Venture Climate Alliance",
+        "url": "https://www.ventureclimatealliance.org/",
+        "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880976/www.conceptventures.vc__ckw7cb.png",
+        "attributes": {
+            "fonts": ["Whyte", "Inter"],
+            "background_colors": ["#f6f6f2", "#2069f7"],
+            "text_color": "#121212"
+        }
+    }
+    
+]
