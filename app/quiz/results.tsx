@@ -19,6 +19,7 @@ const Results: React.FC<ResultsProps> = ({ userResponses }) => {
 
   return (
     <div className="grid grid-cols-3 gap-4">
+        <div>Sites that you liked</div>
       {likedWebsites.map((website, index) => (
         <div key={index} className="p-4 shadow-lg rounded-lg">
           <img src={website.thumbnailUrl} alt={website.websiteName} className="w-full h-auto mb-4"/>
