@@ -6,12 +6,14 @@ import websiteData from '../../data.json'; // Adjust the path to your JSON file
 interface Website {
   websiteName: string;
   screenshotUrl: string;
+  thumbnailUrl: string;
   websiteID: number; // websiteID is a number
 }
 
 interface Response {
   websiteName: string;
   screenshotUrl: string;
+  thumbnailUrl: string;
   response: string;
   websiteID: number; // websiteID is a number here as well
 }
@@ -32,7 +34,8 @@ const Quiz: React.FC = () => {
       websiteName: currentWebsite.websiteName, 
       response: likeOrDislike,
       websiteID: currentWebsite.websiteID, // Add the websiteID here
-      screenshotUrl: currentWebsite.screenshotUrl
+      screenshotUrl: currentWebsite.screenshotUrl,
+      thumbnailUrl: currentWebsite.thumbnailUrl
     }]);
     setHasResponded(true);
   };

@@ -3,6 +3,7 @@
         "websiteID": 1,
         "websiteName": "Wing VC",
         "url": "https://www.wing.vc/",
+        "thumbnailUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1702483169/Screenshot_2023-12-13_at_10.55.27_AM_lgyjt8.png",
         "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880117/www.wing.vc__lgkdxp.png",
         "attributes": {
             "fonts": ["Söhne Breit", "Tiempos"],
@@ -14,6 +15,7 @@
         "websiteID": 2,
         "websiteName": "Concept Ventures",
         "url": "https://www.conceptventures.vc/",
+        "thumbnailUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1702483169/Screenshot_2023-12-13_at_10.55.27_AM_lgyjt8.png",
         "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880976/www.conceptventures.vc__ckw7cb.png",
         "attributes": {
             "fonts": ["Whyte", "Inter"],
@@ -25,6 +27,7 @@
         "websiteID": 3,
         "websiteName": "Venture Climate Alliance",
         "url": "https://www.ventureclimatealliance.org/",
+        "thumbnailUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1702483169/Screenshot_2023-12-13_at_10.55.27_AM_lgyjt8.png",
         "screenshotUrl": "https://res.cloudinary.com/dhkmle6ei/image/upload/v1701880976/www.conceptventures.vc__ckw7cb.png",
         "attributes": {
             "fonts": ["Whyte", "Inter"],
